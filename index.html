@@ -10,7 +10,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./script.js">
-    <!-- <meta http-equiv="refresh" content="10"> -->
+     <!-- Swiper CSS -->
+     <link rel="stylesheet" href="/swiper-bundle.min.css">
+     <!-- <meta http-equiv="refresh" content="10"> -->
 </head>
 
 <body>
@@ -21,12 +23,18 @@
             <div class="header">
                 <div class="width-94">
                     <div class="title-text">
-                        Supercomputador e Computação em Nuvem
+                        <h1>SUPERCOMPUTAÇÃO</h1>
                     </div>
                     <div class="subtitle-text">
-                        Foi no contexto da II Guerra Mundial que as máquinas que fazem cálculos passou a ser primeiro utilizadas pelos ingleses, para que pudessem descriptografar a comunicação do exército alemão. Essa criptografia era uma estratégia tática dos ingleses, onde
-                        eles compreendiam o local onde os alemães estariam em seguida. Essa máquina era grande, pesada e com dispositivos empilhados, onde a interação era feita a partir de cálculos matemáticos. Ao decorrer dos anos, essas máquinas foram
-                        e vêm evoluindo, tornando a interação mais simples e o processo para guardar memória mais rápido (através da computação em nuvem).
+                        <p>
+                            Supercomputadores não são simplesmente um computador rápido e grande, ele trabalha utilizando <b>programação paralela</b> ao invés de processamento serial como em um computador comum.
+                        </p>
+                        <p>
+                            Assim como seus processamentos, sua evolução ocorre de forma rápida. Essa evolução ocorre física e internamente, <i>como por exemplo as nuvens substituindo servidores</i>. Como será melhor detalhado nos tópicos seguintes…
+                        </p>
+                        <p>
+                            Para começar, iremos apresentar uma breve evolução dos computadores e supercomputadores nessa linha do tempo abaixo…
+                        </p>
                     </div>
                 </div>
                 <!-- <img class="header-svg" src="/img/Supercomputers_Thumbnail.svg" alt=""> -->
@@ -36,31 +44,43 @@
                     <div id="progress-bar-container">
                         <ul>
                             <li class="step step01 active">
-                                <div class="step-inner">1623</div>
-                            </li>
-                            <li class="step step02">
-                                <div class="step-inner">1645</div>
-                            </li>
-                            <li class="step step03">
                                 <div class="step-inner">1944</div>
                             </li>
-                            <li class="step step04">
+                            <li class="step step02">
                                 <div class="step-inner">1958</div>
                             </li>
-                            <li class="step step05">
+                            <li class="step step03">
+                                <div class="step-inner">1964</div>
+                            </li>
+                            <li class="step step04">
                                 <div class="step-inner">1971</div>
                             </li>
+                            <li class="step step05">
+                                <div class="step-inner">1980</div>
+                            </li>
                             <li class="step step06">
-                                <div class="step-inner">1985</div>
+                                <div class="step-inner">1982</div>
                             </li>
                             <li class="step step07">
                                 <div class="step-inner">1990</div>
                             </li>
                             <li class="step step08">
-                                <div class="step-inner">2005</div>
+                                <div class="step-inner">1996</div>
                             </li>
                             <li class="step step09">
-                                <div class="step-inner">2010+</div>
+                                <div class="step-inner">2000</div>
+                            </li>
+                            <li class="step step10">
+                                <div class="step-inner">2007</div>
+                            </li>
+                            <li class="step step11">
+                                <div class="step-inner">2008</div>
+                            </li>
+                            <li class="step step12">
+                                <div class="step-inner">2018</div>
+                            </li>
+                            <li class="step step13">
+                                <div class="step-inner">2021</div>
                             </li>
                         </ul>
 
@@ -71,83 +91,129 @@
 
                     <div id="progress-content-section">
                         <div class="section-content discovery active">
-                            <h2>RELÓGIO CALCULADOR</h2>
-                            <div class="group group-img">
-                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
-                            </div>
-                            <p>Primeira máquina mecânica de somar e subtrair, mas a máquina não conheceu qualquer difusão.
-                            </p>
-                        </div>
-                        <div class="section-content active2">
-                            <h2>PASCALINE</h2>
-                            <div class="group group-img">
-                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
-                            </div>
-                            <p>Pascal obteve uma máquina de somar e subtrair que funcionava, após diversas tentativas de concepção e construção de máquinas do género.
-                            </p>
-                        </div>
-
-                        <div class="section-content active3">
                             <h2>ENIAC</h2>
                             <div class="group group-img">
                                 <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
                             </div>
-                            <p>Primeiro computador multiuso - os anteriores (como o MARK 1) apenas desempenhavam tarefas específicas como cálculos de bombardeios em guerra</p>
+                            <p>
+                                Primeiro computador multiuso, apenas desempenhavam tarefas específicas como cálculos de bombardeios em guerra.
+                            </p>
                         </div>
-
-                        <div class="section-content active4">
+                        <div class="section-content active2">
                             <h2>Circuito Integrado</h2>
                             <div class="group group-img">
                                 <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
                             </div>
-                            <p>Com a invenção do circuito integrado, vários transistores integrados em uma única peça de silicone - a velocidade das máquinas aumentaram</p>
+                            <p>
+                                Com a invenção do circuito integrado, vários transistores integrados em uma única peça de silicone - a velocidade das máquinas aumentaram.
+                            </p>
                         </div>
 
-                        <div class="section-content active5">
+                        <div class="section-content active3">
+                            <h2>CDC 6600</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p> 
+                                Primeiro supercomputador com <i>sistemas RISC</i> e sistemas de refrigeração <i>Freon</i>; utilizado para analisar trilhas de câmera de bolhas em experimentos nucleares.
+                            </p>
+                        </div>
+
+                        <div class="section-content active4">
                             <h2>Microprocessador</h2>
                             <div class="group group-img">
                                 <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
                             </div>
-                            <p>Com a diminuição dos circuitos integrados, a indústria conseguiu condensar milhares deles numa única peça, gerando o primeiro microprocessador (intel 4004)
-                            </p>
-                        </div>
-                        <div class="section-content active6">
-                            <h2>WINDOWS</h2>
-                            <div class="group group-img">
-                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
-                            </div>
-                            <p>O lançamento do Windows traz para o PC, as vantagens da interface gráfica popularizada pela Apple. Hoje, 90% dos computadores funcionam com uma versão deste programa
-                            </p>
-                        </div>
-                        <div class="section-content active7">
-                            <h2>Internet</h2>
-                            <div class="group group-img">
-                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
-                            </div>
-                            <p>Desde 1969, um sistema de rede chamado Arpanet era desenvolvido em paralelo aos computadores. Em 1990, com a criação da linguagem HTML, a internet é oficialmente inaugurada
-                            </p>
-                        </div>
-                        <div class="section-content active8">
-                            <h2>Micro de 100 doláres</h2>
-                            <div class="group group-img">
-                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
-                            </div>
-                            <p>O desafio era democratizar o acesso a computadores. Com estrutura simples, o MIT propõe um micro que custe 100 doláres
-                            </p>
-                        </div>
-                        <div class="section-content active9">
-                            <h2>Computação Quântica</h2>
-                            <div class="group group-img">
-                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
-                            </div>
-                            <p> A evolução dos PCs muito poderosos garantiu ao Google o recorde da supremacia quântica, com a resolução de um cálculo em apenas 200 segundos. Essa tecnologia promete alta capacidade de processamento para atacar e resolver problemas
-                                científicos, podendo despertar curiosidade nos usuários de PCs comuns
+                            <p>
+                                Com a diminuição dos circuitos integrados, a indústria conseguiu condensar milhares deles numa única peça, gerando o <b><i>primeiro microprocessador</i></b> (intel 4004).
                             </p>
                         </div>
 
+                        <div class="section-content active5">
+                            <h2>Computação em Cluster</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p>
+                                Coleção de computadores que estão conectados de forma estreita ou fraca e trabalham juntos para funcionar como uma única entidade.
+                            </p>
+                        </div>
+                        <div class="section-content active6">
+                            <h2>CRAY X-MP</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p>
+                                Primeiro supercomputador com mais de 1 CPU.
+                            </p>
+                        </div>
+                        <div class="section-content active7">
+                            <h2>Computação em Grade</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p>
+                                Uma rede de computadores colabora para concluir uma tarefa que seria improvável para uma única máquina concluir. Para funcionar como um <i><b>supercomputador virtual</b></i>, todas as máquinas dessa rede devem seguir o mesmo protocolo.
+                            </p>
+                        </div>
+                        <div class="section-content active8">
+                            <h2>ASCI RED</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p>
+                                Primeiro supercomputador <i><b>teraflop</b></i> e feito com CPUs comerciais.
+                            </p>
+                        </div>
+                        <div class="section-content active9">
+                            <h2>Computação Utilitária</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p> 
+                                Permite que os usuários aumentem e diminuam a escala com base em suas necessidades. Clientes, usuários ou empresas podem alugar espaço de armazenamento de dados, poder de computação ou até mesmo hardware como CPUs, monitores, etc.
+                            </p>
+                        </div>
+                        <div class="section-content active10">
+                            <h2>Computação em Nuvem</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p> 
+                                A tão discutida fase da nuvem real começou em 2007, quando a classificação de <i>IaaS, PaaS e SaaS</i> foi formalizada. Ao longo da história da computação em nuvem, algumas das principais organizações de computadores/web do mundo fizeram avanços muito interessantes.
+                            </p>
+                        </div>
+                        <div class="section-content active11">
+                            <h2>IBM ROADRUNNER</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p> 
+                                Primeiro supercomputador <i><b>petaFLOPS</b></i> e é utilizado prioritariamente para pesquisas astronômicas, energia e genética humana.
+                            </p>
+                        </div>
+                        <div class="section-content active12">
+                            <h2>SUMMIT</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p> 
+                                Possui muito <i>mais GPUs do que CPUs</i>, tornando o mesmo mais rápido.
+                            </p>
+                        </div>
+                        <div class="section-content active13">
+                            <h2>FUGAKU</h2>
+                            <div class="group group-img">
+                                <!--<img class="" src="./img/e596e925cba31d6d2beb090a02371680.jfif"><img>-->
+                            </div>
+                            <p> 
+                                O supercomputador foi usado para simular a disseminação do coronavírus por meio da dispersão de gotículas. Também esteve envolvido na previsão de chuvas concentradas e outros eventos climáticos.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+           
         </section>
         <!--TELA 2-->
         <section>
@@ -166,11 +232,106 @@
                 A computação em nuvem é o acesso, via internet, de recursos hospedados em datacenters gerenciados por um provedor. Pode parecer difícil, mas não é. Quando você usa o Google Docs, por exemplo, para criar ou editar um documento, sem fazer o download do
                 mesmo para o seu dispositivo, você está usando a computação em nuvem. Não são apenas serviços ao público, mas corporações também utilizam o serviço. É claro que cada um será adaptado de acordo com as necessidades dos usuários, variando
                 entre três modelos de serviço e três tipos diferentes.
-                <div class="title-cardbox-section mt-30">
-                    Tipos de Computação em nuvem
+            </div>
+            <div class="cardbox-container background-purple">
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="img/public-cloud.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Núvem Pública</h2>
+                                    <p class="description">Modelo de TI no qual a infraestrutura e os serviços de computação sob demanda são gerenciados por um provedor terceirizado e compartilhados entre várias organizações usando a Internet pública.</p>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="img/private-cloud.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Núvem Privada</h2>
+                                    <p class="description">Uma nuvem privada hospedada é administrada pelo provedor de nuvem e pode residir no local ou em um data center.</p>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="img/hybrid-cloud.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Núvem Híbrida</h2>
+                                    <p class="description">Modelo de computação em nuvem que usa uma combinação de pelo menos uma nuvem privada e uma nuvem pública, que trabalham juntas para oferecer um conjunto flexível de serviços de computação em nuvem.</p>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="img/saas.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">SaaS</h2>
+                                    <p class="description"> Software como serviço, do inglês Software as a service, é uma forma de distribuição e comercialização de software.</p>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="img/paas.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">PaaS</h2>
+                                    <p class="description">Platforma com Serviço, do inglês, Platform as a Service — consiste no serviço propriamente dito de hospedagem e implementação de hardware e software, que é usado para prover aplicações por meio da Internet.</p>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="img/iaas.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">IaaS</h2>
+                                    <p class="description">A IaaS (infraestrutura como serviço) é um tipo de serviço de computação em nuvem que oferece recursos fundamentais de computação, armazenamento e rede sob demanda e pagos conforme o uso.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                   
+                    
                 </div>
             </div>
-
+            
+            <!--
             <div class="cardbox-container background-purple">
                 <div class="cardbox">
                     <img class="img-cardbox" src="img/public-cloud.png" alt="">
@@ -211,7 +372,7 @@
                     </div>
                 </div>
             </div>
-
+        --><!--
             <div>
                 <div class="title-cardbox-section mt-30 width-94 side-margin-auto">
                     Modelos de serviço
@@ -257,7 +418,7 @@
                     </div>
                 </div>
             </div>
-
+        -->
         </section>
         <!--TELA 3-->
         <section class="full-height">
@@ -272,7 +433,7 @@
                 </div>
                 <img class="header-svg" src="/img/supercomputador.png" alt="">
             </div>
-
+            <!---->
             <div class="process-wrapper">
                 <div id="progress-bar-container">
                     <ul>
@@ -323,6 +484,7 @@
 
                 </div>
             </div>
+            
 
         </section>
         <!--TELA 4-->
@@ -392,65 +554,86 @@
             $(this).nextAll().removeClass("active");
         });
         $(".step1").click(function() {
-            $("#line-progress").css("width", "3%");
+            $("#line-progress").css("width");
             $(".discovery0").addClass("active").siblings().removeClass("active");
         });
 
         $(".step2").click(function() {
-            $("#line-progress").css("width", "13%");
+            $("#line-progress").css("width");
             $(".active02").addClass("active").siblings().removeClass("active");
         });
 
         $(".step3").click(function() {
-            $("#line-progress").css("width", "25%");
+            $("#line-progress").css("width");
             $(".active03").addClass("active").siblings().removeClass("active");
         });
 
         $(".step4").click(function() {
-            $("#line-progress").css("width", "37%");
+            $("#line-progress").css("width");
             $(".active04").addClass("active").siblings().removeClass("active");
         });
         $(".step01").click(function() {
-            $("#line-progress").css("width", "3%");
+            $("#line-progress").css("width", "0%");
             $(".discovery").addClass("active").siblings().removeClass("active");
         });
 
         $(".step02").click(function() {
-            $("#line-progress").css("width", "13%");
+            $("#line-progress").css("width", "8%");
             $(".active2").addClass("active").siblings().removeClass("active");
         });
 
         $(".step03").click(function() {
-            $("#line-progress").css("width", "25%");
+            $("#line-progress").css("width", "17%");
             $(".active3").addClass("active").siblings().removeClass("active");
         });
 
         $(".step04").click(function() {
-            $("#line-progress").css("width", "37%");
+            $("#line-progress").css("width", "25%");
             $(".active4").addClass("active").siblings().removeClass("active");
         });
 
         $(".step05").click(function() {
-            $("#line-progress").css("width", "50%");
+            $("#line-progress").css("width", "33%");
             $(".active5").addClass("active").siblings().removeClass("active");
         });
         $(".step06").click(function() {
-            $("#line-progress").css("width", "63%");
+            $("#line-progress").css("width", "42%");
             $(".active6").addClass("active").siblings().removeClass("active");
         });
         $(".step07").click(function() {
-            $("#line-progress").css("width", "75%");
+            $("#line-progress").css("width", "50%");
             $(".active7").addClass("active").siblings().removeClass("active");
         });
         $(".step08").click(function() {
-            $("#line-progress").css("width", "87%");
+            $("#line-progress").css("width", "58%");
             $(".active8").addClass("active").siblings().removeClass("active");
         });
         $(".step09").click(function() {
-            $("#line-progress").css("width", "100%");
+            $("#line-progress").css("width", "67%");
             $(".active9").addClass("active").siblings().removeClass("active");
+        });
+        $(".step10").click(function() {
+            $("#line-progress").css("width", "75%");
+            $(".active10").addClass("active").siblings().removeClass("active");
+        });
+        $(".step11").click(function() {
+            $("#line-progress").css("width", "83%");
+            $(".active11").addClass("active").siblings().removeClass("active");
+        });
+        $(".step12").click(function() {
+            $("#line-progress").css("width", "92%");
+            $(".active12").addClass("active").siblings().removeClass("active");
+        });
+        $(".step13").click(function() {
+            $("#line-progress").css("width", "100%");
+            $(".active13").addClass("active").siblings().removeClass("active");
         });
     </script>
 </body>
+<!-- Swiper JS -->
+<script src="/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="/script.js"></script>
 
 </html>
