@@ -11,7 +11,6 @@
 
 .body {
     overflow-y: hidden;
-   
 }
 
 .full-height {
@@ -23,7 +22,7 @@
     width: 100%;
     height: 100vh;
     scroll-snap-type: y mandatory;
-   /* overflow:  scroll; */
+    /* overflow: scroll; */
     flex-wrap: wrap;
 }
 
@@ -44,7 +43,7 @@ section {
     justify-content: center;
     align-items: center;
     width: 100%;
-     scroll-snap-align: start; 
+    /* scroll-snap-align: start; */
 }
 
 .break {
@@ -60,11 +59,11 @@ section:nth-of-type(1){
 section:nth-of-type(2){
     background: #B676D3;
 }
-
+*/
 section:nth-of-type(3) {
     background: #B676D3;
 }
-*/
+
 section:nth-of-type(4) {
     background: #b576d3c1;
 }
@@ -309,7 +308,7 @@ body {
     height: 300px;
     width: 100%;
     background-color: #EEEEEE;
-    padding: 15px 0 30px 0;
+    padding: 30px 0 30px 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -327,35 +326,17 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
-    line-height: 49px;
+    font-size: 48px;
+    line-height: 59px;
     color: #3E2E35;
 }
-.title-text1 {
-    margin: 0 0 0 0;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 49px;
-    color: #3E2E35;
-}
-
 
 .subtitle-text {
     font-family: 'Montserrat', sans-serif;
     float: left;
     margin-top: 15px;
     color: #3E2E35;
-    font-size: 20px;
-    line-height: 30px;
-}
-.subtitle-text1 {
-    font-family: 'Montserrat', sans-serif;
-    float: left;
-    margin-top: 15px;
-    color: #3E2E35;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 30px;
 }
 
@@ -368,11 +349,12 @@ body {
 }
 
 .header1-svg {
-    margin: 0 0 0 0;
+    margin: 0 0 -0 0;
     padding: 30px 0 30px 0;
     float: right;
-    height: 100%;
+    height: 0%;
     width: auto;
+    justify-content: space-around;
 }
 
 .subtext {
@@ -397,7 +379,7 @@ body {
 .cardbox-container {
     width: 100%;
     height: fit-content;
-    padding: 10px 0;
+    padding: 30px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
