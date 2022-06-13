@@ -285,7 +285,9 @@ body {
 }
 
 .width-94 {
+    padding: 40px ;
     width: 94% !important;
+    text-align: justify;
 }
 
 .side-margin-auto {
@@ -330,6 +332,7 @@ body {
     font-size: 38px;
     line-height: 49px;
     color: #3E2E35;
+    text-align: justify;
 }
 .title-text1 {
     margin: 0 0 0 0;
@@ -339,6 +342,7 @@ body {
     font-size: 28px;
     line-height: 49px;
     color: #3E2E35;
+    text-align: justify;
 }
 
 
@@ -349,6 +353,7 @@ body {
     color: #3E2E35;
     font-size: 20px;
     line-height: 30px;
+    
 }
 .subtitle-text1 {
     font-family: 'Montserrat', sans-serif;
@@ -357,6 +362,8 @@ body {
     color: #3E2E35;
     font-size: 18px;
     line-height: 30px;
+    text-align: justify;
+    margin: 10px 30px 10px 30px;
 }
 
 .header-svg {
